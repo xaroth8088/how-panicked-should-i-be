@@ -1,0 +1,317 @@
+[
+  {
+	"code": "X60-X84",
+	"cause": "Intentional self-harm",
+	"deaths": 48312
+  },
+  {
+	"code": "E40-E46",
+	"cause": "Malnutrition",
+	"deaths": 9335
+  },
+  {
+	"code": "V01-V99,Y85",
+	"cause": "Transport accidents",
+	"deaths": 42032
+  },
+  {
+	"code": "*U01-*U02,X85-Y09,Y87.1",
+	"cause": "Assault (homicide)",
+	"deaths": 18830
+  },
+  {
+	"code": "K40-K46",
+	"cause": "Hernia",
+	"deaths": 2265
+  },
+  {
+	"code": "Y35,Y89.0",
+	"cause": "Legal intervention",
+	"deaths": 618
+  },
+  {
+	"code": "X00-X09",
+	"cause": "Accidental exposure to smoke, fire and flames",
+	"deaths": 2972
+  },
+  {
+	"code": "J09-J11",
+	"cause": "Influenza",
+	"deaths": 11164
+  },
+  {
+	"code": "C00-C97",
+	"cause": "Malignant neoplasms (aka Cancer)",
+	"deaths": 599274
+  },
+  {
+	"code": "I00-I78",
+	"cause": "Major cardiovascular diseases",
+	"deaths": 863834
+  },
+  {
+	"code": "E70.3",
+	"cause": "Albinism",
+	"deaths": 1
+  },
+  {
+	"code": "K05.1",
+	"cause": "Chronic gingivitis",
+	"deaths": 1
+  },
+  {
+	"code": "R06.7",
+	"cause": "Sneezing",
+	"deaths": 1
+  },
+  {
+	"code": "V96.0",
+	"cause": "Balloon accident injuring occupant",
+	"deaths": 1
+  },
+  {
+	"code": "W56",
+	"cause": "Contact with marine animal",
+	"deaths": 1
+  },
+  {
+	"code": "W58",
+	"cause": "Bitten or struck by crocodile or alligator",
+	"deaths": 1
+  },
+  {
+	"code": "W26",
+	"cause": "Contact with knife, sword or dagger",
+	"deaths": 3
+  },
+  {
+	"code": "V01.1",
+	"cause": "Pedestrian injured in collision with pedal cycle, traffic accident",
+	"deaths": 4
+  },
+  {
+	"code": "X20",
+	"cause": "Contact with venomous snakes and lizards",
+	"deaths": 4
+  },
+  {
+	"code": "X21",
+	"cause": "Contact with venomous spiders",
+	"deaths": 4
+  },
+  {
+	"code": "W09",
+	"cause": "Fall involving playground equipment",
+	"deaths": 5
+  },
+  {
+	"code": "X75",
+	"cause": "Intentional self-harm by explosive material",
+	"deaths": 7
+  },
+  {
+	"code": "Y01",
+	"cause": "Assault by pushing from high place",
+	"deaths": 7
+  },
+  {
+	"code": "J67.2",
+	"cause": "Bird fancier lung",
+	"deaths": 8
+  },
+  {
+	"code": "W21",
+	"cause": "Striking against or struck by sports equipment",
+	"deaths": 8
+  },
+  {
+	"code": "X15",
+	"cause": "Contact with hot household appliances",
+	"deaths": 8
+  },
+  {
+	"code": "X16",
+	"cause": "Contact with hot heating appliances, radiators and pipes",
+	"deaths": 12
+  },
+  {
+	"code": "W66",
+	"cause": "Drowning and submersion following fall into bath-tub",
+	"deaths": 14
+  },
+  {
+	"code": "X68",
+	"cause": "Intentional self-poisoning by and exposure to pesticides",
+	"deaths": 19
+  },
+  {
+	"code": "Y35.5",
+	"cause": "Legal execution",
+	"deaths": 22
+  },
+  {
+	"code": "X33",
+	"cause": "Victim of lightning",
+	"deaths": 23
+  },
+  {
+	"code": "X03",
+	"cause": "Exposure to controlled fire, not in building or structure",
+	"deaths": 25
+  },
+  {
+	"code": "W25",
+	"cause": "Contact with sharp glass",
+	"deaths": 29
+  },
+  {
+	"code": "W44",
+	"cause": "Foreign body entering into or through eye or natural orifice",
+	"deaths": 30
+  },
+  {
+	"code": "W12",
+	"cause": "Fall on and from scaffolding",
+	"deaths": 33
+  },
+  {
+	"code": "W54",
+	"cause": "Bitten or struck by dog",
+	"deaths": 35
+  },
+  {
+	"code": "V95.0",
+	"cause": "Helicopter accident injuring occupant",
+	"deaths": 42
+  },
+  {
+	"code": "X11",
+	"cause": "Contact with hot tap-water",
+	"deaths": 42
+  },
+  {
+	"code": "W14",
+	"cause": "Fall from tree",
+	"deaths": 54
+  },
+  {
+	"code": "W02",
+	"cause": "Fall involving ice-skates, skis, roller-skates or skateboards",
+	"deaths": 59
+  },
+  {
+	"code": "Y03",
+	"cause": "Assault by crashing of motor vehicle",
+	"deaths": 63
+  },
+  {
+	"code": "W15",
+	"cause": "Fall from cliff",
+	"deaths": 68
+  },
+  {
+	"code": "X66",
+	"cause": "Intentional self-poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours",
+	"deaths": 76
+  },
+  {
+	"code": "X23",
+	"cause": "Contact with hornets, wasps and bees",
+	"deaths": 77
+  },
+  {
+	"code": "W55",
+	"cause": "Bitten or struck by non-dog mammals",
+	"deaths": 87
+  },
+  {
+	"code": "W28",
+	"cause": "Contact with powered lawnmower",
+	"deaths": 96
+  },
+  {
+	"code": "W23",
+	"cause": "Caught, crushed, jammed or pinched in or between objects",
+	"deaths": 129
+  },
+  {
+	"code": "X01",
+	"cause": "Exposure to uncontrolled fire, not in building or structure",
+	"deaths": 130
+  },
+  {
+	"code": "W00",
+	"cause": "Fall on same level involving ice and snow",
+	"deaths": 139
+  },
+  {
+	"code": "W87",
+	"cause": "Exposure to unspecified electric current",
+	"deaths": 183
+  },
+  {
+	"code": "K59.0",
+	"cause": "Constipation",
+	"deaths": 198
+  },
+  {
+	"code": "W30",
+	"cause": "Contact with agricultural machinery",
+	"deaths": 221
+  },
+  {
+	"code": "W07",
+	"cause": "Fall involving chair",
+	"deaths": 305
+  },
+  {
+	"code": "W11",
+	"cause": "Fall on and from ladder",
+	"deaths": 452
+  },
+  {
+	"code": "W13",
+	"cause": "Fall from, out of or through building or structure",
+	"deaths": 480
+  },
+  {
+	"code": "X91",
+	"cause": "Assault by hanging, strangulation and suffocation",
+	"deaths": 485
+  },
+  {
+	"code": "X71",
+	"cause": "Intentional self-harm by drowning and submersion",
+	"deaths": 522
+  },
+  {
+	"code": "W05",
+	"cause": "Fall involving wheelchair",
+	"deaths": 535
+  },
+  {
+	"code": "X81",
+	"cause": "Intentional self-harm by jumping or lying before moving object",
+	"deaths": 662
+  },
+  {
+	"code": "W67",
+	"cause": "Drowning and submersion while in swimming-pool",
+	"deaths": 691
+  },
+  {
+	"code": "W01",
+	"cause": "Fall on same level from slipping, tripping and stumbling",
+	"deaths": 778
+  },
+  {
+	"code": "W06",
+	"cause": "Fall involving bed",
+	"deaths": 973
+  },
+  {
+	"code": "R54",
+	"cause": "Senility",
+	"deaths": 4262
+  }
+]
