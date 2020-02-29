@@ -60,7 +60,7 @@
 	"population": 97040336
   },
   "cg": {
-	"name": "Democratic Republic of the Congo",
+	"name": "DRC",
 	"population": 85281024
   },
   "ir": {
@@ -74,5 +74,9 @@
   "de": {
 	"name": "Germany",
 	"population": 80457736
+  },
+  "un": {
+	"name": "Rest of World",
+	"population": 2511813784
   }
 }

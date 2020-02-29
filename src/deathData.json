@@ -155,11 +155,6 @@
 	"deaths": 23
   },
   {
-	"code": "X02",
-	"cause": "Exposure to controlled fire in building or structure",
-	"deaths": 25
-  },
-  {
 	"code": "X03",
 	"cause": "Exposure to controlled fire, not in building or structure",
 	"deaths": 25

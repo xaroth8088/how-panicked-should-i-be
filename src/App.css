@@ -1,12 +1,197 @@
+@import url('http://fonts.googleapis.com/css?family=Trade%20Winds&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html {
+    background-color: #333;
+    color: #d3d3d3;
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Trade Winds', serif;
+}
+
 .App {
-  text-align: center;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    padding: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.introduction {
+    --delay-base: 2000ms;
 }
 
-.panic-stats {
-  max-width: 25%;
+.introduction .small-print {
+    font-size: 0.66rem;
+}
+
+.introduction .small-print em {
+    font-weight: bold;
+}
+
+.introduction p:nth-child(2) {
+    animation-delay: var(--delay-base);
+}
+
+.introduction p:nth-child(3) {
+    animation-delay: calc(2 * var(--delay-base));
+}
+
+.introduction p:nth-child(4) {
+    animation-delay: calc(3 * var(--delay-base));
+}
+
+.introduction p:nth-child(5) {
+    animation-delay: calc(4 * var(--delay-base));
+}
+
+.introduction h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    animation-delay: calc(6 * var(--delay-base));
+}
+
+.introduction p:nth-child(7) {
+    animation-delay: calc(7 * var(--delay-base));
+}
+
+.introduction button {
+    animation-delay: calc(8 * var(--delay-base));
+}
+
+.introduction p:nth-child(9) {
+    animation-delay: calc(8 * var(--delay-base));
+}
+
+button {
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Trade Winds', serif;
+    cursor: pointer;
+}
+
+.death-count .odometer {
+    display: inline-block;
+    font-size: 3rem;
+}
+
+.death-count .buttons {
+    display: inline-flex;
+    vertical-align: middle;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.death-count > div:last-child {
+    margin-top: 1rem;
+}
+
+.affected-countries {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.affected-countries__country-checkboxes {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-right: 0.5rem;
+}
+
+.affected-countries__country-checkboxes .countryCheckbox {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.affected-countries__country-checkboxes .countryCheckbox .rc-checkbox {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.affected-countries__country-checkboxes .countryCheckbox .flag-icon {
+    margin-right: 0.5rem;
+}
+
+.affected-countries__risk-count {
+    flex: 1.5;
+}
+
+.affected-countries__risk-count .odometer {
+    font-size: 1.5rem;
+}
+
+.panic-stats div[type=pie] {
+    display: inline-block;
+}
+
+.as-deadly-as {
+    --animate-delay: 2s;
+}
+
+.as-deadly-as table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.as-deadly-as tr {
+    height: 3rem;
+    color: black;
+}
+
+.as-deadly-as th {
+    padding: 1rem 1rem;
+}
+
+.as-deadly-as tr td {
+    padding: 0 1rem;
+}
+
+.as-deadly-as tr:nth-child(1) {
+    animation-delay: calc(var(--animate-delay));
+    background-color: #FC6042;
+}
+
+.as-deadly-as tr:nth-child(2) {
+    animation-delay: calc(2 * var(--animate-delay));
+    background-color: #FCB941;
+}
+
+.as-deadly-as tr:nth-child(3) {
+    animation-delay: calc(3 * var(--animate-delay));
+    background-color: #EEE657;
+}
+
+.as-deadly-as tr:nth-child(4) {
+    animation-delay: calc(4 * var(--animate-delay));
+    background-color: #2CC990;
+}
+
+.as-deadly-as tr:nth-child(5) {
+    animation-delay: calc(5 * var(--animate-delay));
+    background-color: #2C82C9;
+}
+
+.as-deadly-as tr:nth-child(6) {
+    animation-delay: calc(6 * var(--animate-delay));
+    background-color: lightgrey;
+}
+
+.as-deadly-as > div:last-child {
+    margin-top: 2rem;
+    animation-delay: calc(8 * var(--animate-delay));
+}
+
+.final-summary ul {
+    text-align: left;
+    display: inline-block;
+    margin: 2rem auto;
 }

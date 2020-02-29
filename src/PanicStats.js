@@ -20,10 +20,24 @@ export default function PanicStats({ magnitude, countries, nextStep }) {
                 }
             }
         },
-        labels: [`Population: ${population}`],
+        labels: [`Population: ${new Intl.NumberFormat().format(population)}`],
         dataLabels: {
             formatter: (val, { seriesIndex }) => {
-                return `${seriesIndex === 0 ? 'Alive' : 'Dead'}: ${val.toFixed(5)}%`;
+                return `${seriesIndex === 0 ? 'Alive' : 'Dead'}: ${val.toFixed(6)}%`;
+            }
+        },
+        legend: {
+            labels: {
+                colors: ['#fff', '#fff']
+            }
+        },
+        stroke: {
+            colors: ['#00000000', '#fff'],
+            width: 1
+        },
+        tooltip: {
+            y: {
+                formatter: () => ''
             }
         }
     });
@@ -34,7 +48,7 @@ export default function PanicStats({ magnitude, countries, nextStep }) {
         setTimeout(() => {
             setOptions({
                 ...options,
-                labels: [`Population: ${population}`, `Deaths: ${(10 ** magnitude).toFixed(0)}`]
+                labels: [`Population: ${new Intl.NumberFormat().format(population)}`, `Deaths: ${new Intl.NumberFormat().format((10 ** magnitude).toFixed(0))}`]
             });
             setSeries([...series, 10 ** magnitude]);
             setShowingNext(true);
@@ -43,6 +57,7 @@ export default function PanicStats({ magnitude, countries, nextStep }) {
 
     return (
         <div className="panic-stats">
+            <h1>Deaths versus population</h1>
             <Chart
                 type="pie"
                 series={series}
@@ -53,7 +68,9 @@ export default function PanicStats({ magnitude, countries, nextStep }) {
                 showingNext === false
                     ? false
                     : (
-                        <button type="button" onClick={nextStep}>Next</button>
+                        <div>
+                            <button type="button" onClick={nextStep}>Put it in context</button>
+                        </div>
                     )
             }
         </div>
