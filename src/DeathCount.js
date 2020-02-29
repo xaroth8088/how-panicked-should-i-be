@@ -17,7 +17,7 @@ export default function DeathCount({ magnitude, setMagnitude, nextStep }) {
                     type="button"
                     onClick={
                         () => {
-                            setMagnitude(magnitude < 5 ? magnitude + 0.25 : magnitude);
+                            setMagnitude(magnitude < 5.75 ? magnitude + 0.25 : magnitude);
                         }
                     }
                 >

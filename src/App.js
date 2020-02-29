@@ -18,7 +18,6 @@ function App() {
     return (
         <div className="App">
             <StepWizard
-                initialStep={1}
                 isLazyMount
                 transitions={{
                     enterLeft: 'fadeIn animated',
