@@ -1,0 +1,78 @@
+{
+  "cn": {
+	"name": "China",
+	"population": 1384689024
+  },
+  "in": {
+	"name": "India",
+	"population": 1296834048
+  },
+  "us": {
+	"name": "United States",
+	"population": 329256480
+  },
+  "id": {
+	"name": "Indonesia",
+	"population": 262787408
+  },
+  "br": {
+	"name": "Brazil",
+	"population": 208846896
+  },
+  "pk": {
+	"name": "Pakistan",
+	"population": 207862512
+  },
+  "ng": {
+	"name": "Nigeria",
+	"population": 203452512
+  },
+  "bd": {
+	"name": "Bangladesh",
+	"population": 159453008
+  },
+  "ru": {
+	"name": "Russia",
+	"population": 142122784
+  },
+  "jp": {
+	"name": "Japan",
+	"population": 126168160
+  },
+  "mx": {
+	"name": "Mexico",
+	"population": 125959208
+  },
+  "et": {
+	"name": "Ethiopia",
+	"population": 108386392
+  },
+  "ph": {
+	"name": "Philippines",
+	"population": 105893384
+  },
+  "eg": {
+	"name": "Egypt",
+	"population": 99413320
+  },
+  "vn": {
+	"name": "Vietnam",
+	"population": 97040336
+  },
+  "cg": {
+	"name": "Democratic Republic of the Congo",
+	"population": 85281024
+  },
+  "ir": {
+	"name": "Iran",
+	"population": 83024744
+  },
+  "tr": {
+	"name": "Turkey",
+	"population": 81257240
+  },
+  "de": {
+	"name": "Germany",
+	"population": 80457736
+  }
+}
