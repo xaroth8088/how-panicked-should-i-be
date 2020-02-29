@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/how-panicked-should-i-be/static/css/main.9db3e2ea.chunk.css",
+    "main.js": "/how-panicked-should-i-be/static/js/main.8cb5bbfe.chunk.js",
+    "main.js.map": "/how-panicked-should-i-be/static/js/main.8cb5bbfe.chunk.js.map",
+    "runtime-main.js": "/how-panicked-should-i-be/static/js/runtime-main.e8e46a91.js",
+    "runtime-main.js.map": "/how-panicked-should-i-be/static/js/runtime-main.e8e46a91.js.map",
+    "static/css/2.d2b417cb.chunk.css": "/how-panicked-should-i-be/static/css/2.d2b417cb.chunk.css",
+    "static/js/2.51cd6292.chunk.js": "/how-panicked-should-i-be/static/js/2.51cd6292.chunk.js",
+    "static/js/2.51cd6292.chunk.js.map": "/how-panicked-should-i-be/static/js/2.51cd6292.chunk.js.map",
+    "index.html": "/how-panicked-should-i-be/index.html",
+    "precache-manifest.d24fa55d47b1c8025156769517e47d45.js": "/how-panicked-should-i-be/precache-manifest.d24fa55d47b1c8025156769517e47d45.js",
+    "service-worker.js": "/how-panicked-should-i-be/service-worker.js",
+    "static/css/2.d2b417cb.chunk.css.map": "/how-panicked-should-i-be/static/css/2.d2b417cb.chunk.css.map",
+    "static/css/main.9db3e2ea.chunk.css.map": "/how-panicked-should-i-be/static/css/main.9db3e2ea.chunk.css.map",
+    "static/js/2.51cd6292.chunk.js.LICENSE.txt": "/how-panicked-should-i-be/static/js/2.51cd6292.chunk.js.LICENSE.txt",
+    "static/media/flag-icon.min.css": "/how-panicked-should-i-be/static/media/zw.8b885465.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8e46a91.js",
+    "static/css/2.d2b417cb.chunk.css",
+    "static/js/2.51cd6292.chunk.js",
+    "static/css/main.9db3e2ea.chunk.css",
+    "static/js/main.8cb5bbfe.chunk.js"
+  ]
+}
