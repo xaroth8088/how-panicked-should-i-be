@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "765edeb41c06bac5242a691714dfb689",
+    "revision": "42760a3f968f009eaceb140cb9e5a48c",
     "url": "/how-panicked-should-i-be/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/how-panicked-should-i-be/static/css/2.d2b417cb.chunk.css"
   },
   {
-    "revision": "18081985d2cf6f817b84",
-    "url": "/how-panicked-should-i-be/static/css/main.4d4c6042.chunk.css"
+    "revision": "f78ca01902479d0a609b",
+    "url": "/how-panicked-should-i-be/static/css/main.bec4ab2d.chunk.css"
   },
   {
     "revision": "55d399697c468b16b44c",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/how-panicked-should-i-be/static/js/2.51cd6292.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "18081985d2cf6f817b84",
-    "url": "/how-panicked-should-i-be/static/js/main.8cb5bbfe.chunk.js"
+    "revision": "f78ca01902479d0a609b",
+    "url": "/how-panicked-should-i-be/static/js/main.39ef40a8.chunk.js"
   },
   {
     "revision": "da260d98f0b8486a9e61",
