@@ -108,6 +108,7 @@ button {
     flex-wrap: wrap;
     margin: 2rem auto;
     max-width: 21rem;
+    font-size: 0.9rem;
 }
 
 .affected-countries__country-checkboxes .countryCheckbox {
