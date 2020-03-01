@@ -8,7 +8,7 @@
 	"population": 1296834048
   },
   "us": {
-	"name": "United States",
+	"name": "USA",
 	"population": 329256480
   },
   "id": {
@@ -76,7 +76,7 @@
 	"population": 80457736
   },
   "un": {
-	"name": "Rest of World",
+	"name": "All Others",
 	"population": 2511813784
   }
 }

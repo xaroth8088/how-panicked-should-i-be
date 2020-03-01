@@ -29,7 +29,8 @@ export default function PanicStats({ magnitude, countries, nextStep }) {
         legend: {
             labels: {
                 colors: ['#fff', '#fff']
-            }
+            },
+            position: 'bottom',
         },
         stroke: {
             colors: ['#00000000', '#fff'],
@@ -62,14 +63,14 @@ export default function PanicStats({ magnitude, countries, nextStep }) {
                 type="pie"
                 series={series}
                 options={options}
-                width={500}
+                width={320}
             />
             {
                 showingNext === false
                     ? false
                     : (
                         <div>
-                            <button type="button" onClick={nextStep}>Put it in context</button>
+                            <button type="button" className="animated fadeIn" onClick={nextStep}>Put it in context</button>
                         </div>
                     )
             }

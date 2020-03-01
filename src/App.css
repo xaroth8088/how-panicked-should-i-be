@@ -83,10 +83,16 @@ button {
 }
 
 .death-count .buttons {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     vertical-align: middle;
-    flex-direction: column;
-    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.death-count .buttons button {
+    width: 5rem;
 }
 
 .death-count > div:last-child {
@@ -94,17 +100,14 @@ button {
 }
 
 .affected-countries {
-    display: flex;
-    flex-direction: row;
     margin-bottom: 1rem;
 }
 
 .affected-countries__country-checkboxes {
-    flex: 2;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-right: 0.5rem;
+    margin: 2rem auto;
+    max-width: 21rem;
 }
 
 .affected-countries__country-checkboxes .countryCheckbox {
@@ -126,11 +129,16 @@ button {
 }
 
 .affected-countries__risk-count .odometer {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .panic-stats div[type=pie] {
     display: inline-block;
+}
+
+.panic-stats button {
+    margin-top: 1rem;
+    animation-delay: 1s;
 }
 
 .as-deadly-as {

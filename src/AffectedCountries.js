@@ -8,6 +8,18 @@ export default function AffectedCountries({ countries, setCountries, nextStep })
     return (
         <div>
             <div className="affected-countries">
+                <div className="affected-countries__risk-count">
+                    <h1>Which countries are affected?</h1>
+                    <Odometer
+                        value={
+                            [...countries].reduce(
+                                (acc, key) => acc + countryData[key].population,
+                                0
+                            )
+                        }
+                        format="(,ddd)"
+                    />
+                </div>
                 <div className="affected-countries__country-checkboxes">
                     {
                         Object.keys(countryData).reduce(
@@ -39,18 +51,6 @@ export default function AffectedCountries({ countries, setCountries, nextStep })
                             []
                         )
                     }
-                </div>
-                <div className="affected-countries__risk-count">
-                    <h1>People at risk</h1>
-                    <Odometer
-                        value={
-                            [...countries].reduce(
-                                (acc, key) => acc + countryData[key].population,
-                                0
-                            )
-                        }
-                        format="(,ddd)"
-                    />
                 </div>
             </div>
             <div>

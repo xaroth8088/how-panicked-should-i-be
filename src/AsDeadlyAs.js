@@ -56,7 +56,7 @@ export default function AsDeadlyAs({ magnitude, countries, nextStep }) {
                         Cause of death
                     </th>
                     <th>
-                        Annual death rate
+                        Annual deaths
                     </th>
                 </thead>
                 <tbody>

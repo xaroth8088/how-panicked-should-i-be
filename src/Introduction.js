@@ -16,7 +16,7 @@ export default function Introduction({ nextStep }) {
             <p className="animated fadeIn">
                 At least, that&apos;s what the media seems to be telling you.
             </p>
-            <h2 className="animated fadeIn">KEEP CALM</h2>
+            <h2 className="animated fadeIn">KEEP<br/>CALM</h2>
             <p className="animated fadeIn">
                 Let&apos;s find out exactly how dangerous this new threat really is...
             </p>
