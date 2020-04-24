@@ -2,30 +2,51 @@ import React from 'react';
 import countryData from './countryData.json';
 import deathData from './deathData.json';
 
-export default function AsDeadlyAs({ magnitude, countries, nextStep }) {
+const USER_ENTERED_DEATH_REASON_CODE = 'affc763f-8049-4d22-aed5-212b5bd0beb4';
+
+export default function AsDeadlyAs({ magnitude, countries, nextStep, firstStep }) {
     const population = [...countries].reduce(
         (acc, key) => acc + countryData[key].population,
         0
     );
     const risk = (10 ** magnitude) / population;
-    let riskString = 'Unknowable, because this webpage had a problem';
-    const moreLikelyDeaths = deathData
-        .filter(   // Get rid of anything less dangerous that what's been given to us
-            (datum) => (datum.deaths / countryData['us'].population) > risk
-        )
-        .sort(   // Get the remaining list in ascending order of deaths
-            (a, b) => a.deaths - b.deaths
-        )
-        .slice(0,5); // grab a small number of them to pick from
 
-    if (moreLikelyDeaths.length === 0) {
+    const deathLikelihoods = [
+        ...deathData,
+        {
+            code: USER_ENTERED_DEATH_REASON_CODE,
+            cause: 'Whatever Brought You Here',
+            deaths: risk * countryData['us'].population
+        }
+    ]
+        .sort(  // Sort in descending order
+            (a, b) => b.deaths - a.deaths
+        );
+
+    // Ideally, we want 4 worse causes of death.  But, if we can't find 4, we still want to display 5 items.
+    let startIndex = deathLikelihoods.findIndex((e) => e.code === USER_ENTERED_DEATH_REASON_CODE);
+    if (startIndex === 0) {
         return (
             <div className="as-deadly-as">
                 <h1>So, how bad is it?</h1>
-                <h2>If it were possible for that many people to have died, this would be a good time to panic!</h2>
+                <p>
+                    If what you&apos;ve entered is accurate, it&apos;ll be worse than any known cause of death.
+                </p>
+                <p>
+                    Double-check those numbers, but if they're right then go ahead and panic to your heart's content.
+                </p>
+                <div>
+                    <button type="button" className="animated fadeIn" onClick={firstStep}>Try again</button>
+                </div>
             </div>
         );
     }
+
+    startIndex -= 4;
+    if (startIndex < 0) {
+        startIndex = 0;
+    }
+    const moreLikelyDeaths = deathLikelihoods.slice(startIndex, startIndex + 5).reverse();
 
     const stack = moreLikelyDeaths.reverse().map(
         (moreLikelyDeath) => {
@@ -34,17 +55,14 @@ export default function AsDeadlyAs({ magnitude, countries, nextStep }) {
             return (
                 <tr className="animated fadeInDownBig" key={moreLikelyDeath.code}>
                     <td>{moreLikelyDeath.cause}</td>
-                    <td>{`${deathEstimate.toFixed(1)}x`}</td>
+                    <td>{
+                        moreLikelyDeath.code === USER_ENTERED_DEATH_REASON_CODE
+                            ? '1.0x'    // To prevent rounding problems from preventing this from coming out at 1.0x
+                            : `${deathEstimate.toFixed(1)}x`
+                    }</td>
                 </tr>
-            )
+            );
         }
-    );
-
-    stack.push(
-        <tr className="animated fadeInDownBig" key="whatever-brought-you-here">
-            <td>Whatever brought you here</td>
-            <td>1.0x</td>
-        </tr>
     );
 
     return (
@@ -52,12 +70,14 @@ export default function AsDeadlyAs({ magnitude, countries, nextStep }) {
             <h1>How does it compare?</h1>
             <table>
                 <thead>
-                    <th>
-                        Cause of death
-                    </th>
-                    <th>
-                        Annual deaths
-                    </th>
+                    <tr>
+                        <th>
+                            Cause of death
+                        </th>
+                        <th>
+                            Annual deaths
+                        </th>
+                    </tr>
                 </thead>
                 <tbody>
                     {stack}

@@ -79,7 +79,7 @@ button {
 
 .death-count .odometer {
     display: inline-block;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .death-count .buttons {
@@ -151,7 +151,7 @@ button {
     border-collapse: collapse;
 }
 
-.as-deadly-as tr {
+.as-deadly-as tbody > tr {
     height: 3rem;
     color: black;
 }
@@ -164,32 +164,32 @@ button {
     padding: 0 1rem;
 }
 
-.as-deadly-as tr:nth-child(1) {
+.as-deadly-as tbody > tr:nth-child(1) {
     animation-delay: calc(var(--animate-delay));
     background-color: #FC6042;
 }
 
-.as-deadly-as tr:nth-child(2) {
+.as-deadly-as tbody > tr:nth-child(2) {
     animation-delay: calc(2 * var(--animate-delay));
     background-color: #FCB941;
 }
 
-.as-deadly-as tr:nth-child(3) {
+.as-deadly-as tbody > tr:nth-child(3) {
     animation-delay: calc(3 * var(--animate-delay));
     background-color: #EEE657;
 }
 
-.as-deadly-as tr:nth-child(4) {
+.as-deadly-as tbody > tr:nth-child(4) {
     animation-delay: calc(4 * var(--animate-delay));
     background-color: #2CC990;
 }
 
-.as-deadly-as tr:nth-child(5) {
+.as-deadly-as tbody > tr:nth-child(5) {
     animation-delay: calc(5 * var(--animate-delay));
     background-color: #2C82C9;
 }
 
-.as-deadly-as tr:nth-child(6) {
+.as-deadly-as tbody > tr:nth-child(6) {
     animation-delay: calc(6 * var(--animate-delay));
     background-color: lightgrey;
 }

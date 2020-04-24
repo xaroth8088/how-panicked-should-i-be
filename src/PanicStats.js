@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Chart from 'react-apexcharts';
 import countryData from './countryData.json';
 
-export default function PanicStats({ magnitude, countries, nextStep }) {
+export default function PanicStats({ magnitude, countries, nextStep, firstStep }) {
     const population = [...countries].reduce(
         (acc, key) => acc + countryData[key].population,
         0
@@ -51,10 +51,27 @@ export default function PanicStats({ magnitude, countries, nextStep }) {
                 ...options,
                 labels: [`Population: ${new Intl.NumberFormat().format(population)}`, `Deaths: ${new Intl.NumberFormat().format((10 ** magnitude).toFixed(0))}`]
             });
-            setSeries([...series, 10 ** magnitude]);
+            setSeries([population - (10 ** magnitude), 10 ** magnitude]);
             setShowingNext(true);
         }, 5000);
     }, [magnitude, countries]);
+
+    if (10 ** magnitude > population) {
+        return (
+            <div>
+                <h1>START BREEDING!</h1>
+                <p>
+                {`In order to have this many people die, you'll first need to add another ${new Intl.NumberFormat().format(((10 ** magnitude) - population).toFixed(0))} people!`}
+                </p>
+                <p>
+                    You should probably recheck that annual death estimate.
+                </p>
+                <div>
+                    <button type="button" className="animated fadeIn" onClick={firstStep}>Try again</button>
+                </div>
+            </div>
+        )
+    }
 
     return (
         <div className="panic-stats">

@@ -308,5 +308,65 @@
 	"code": "R54",
 	"cause": "Senility",
 	"deaths": 4262
+  },
+  {
+	"code": "ESTIMATED-Black Death",
+	"cause": "The Black Death (approx.)",
+	"deaths": 6756751
+  },
+  {
+	"code": "ESTIMATED-Spanish Flu",
+	"cause": "The Spanish Flu (approx.)",
+	"deaths": 91817201
+  },
+  {
+	"code": "ESTIMATED-Plague of Justinian",
+	"cause": "Plague of Justinian (approx.)",
+	"deaths": 82314120
+  },
+  {
+	"code": "ESTIMATED-Japan smallpox",
+	"cause": "Japan, Smallpox in 735 (approx.)",
+	"deaths": 54876080
+  },
+  {
+	"code": "J40-J47",
+	"cause": "Chronic Lower respiratory disease",
+	"deaths": 159486
+  },
+  {
+	"code": "I60-I69",
+	"cause": "Cerebrovascular diseases",
+	"deaths": 147810
+  },
+  {
+	"code": "F01-F09",
+	"cause": "Organic mental disorders",
+	"deaths": 118620
+  },
+  {
+	"code": "E10-E14",
+	"cause": "Diabetes mellitus",
+	"deaths": 84946
+  },
+  {
+	"code": "K70-K76",
+	"cause": "Diseases of liver",
+	"deaths": 55918
+  },
+  {
+	"code": "N17-N19",
+	"cause": "Renal failure",
+	"deaths": 50404
+  },
+  {
+	"code": "J60-J70",
+	"cause": "Lung diseases due to external agents",
+	"deaths": 20104
+  },
+  {
+	"code": "Y40-Y84",
+	"cause": "Complications of medical and surgical care",
+	"deaths": 4506
   }
 ]

@@ -5,7 +5,7 @@ export default function DeathCount({ magnitude, setMagnitude, nextStep }) {
     return (
         <div className="death-count">
             <h1>
-                How many have died so far?
+                How many will die within a year?
             </h1>
             <Odometer
                 value={10 ** magnitude}
@@ -17,7 +17,7 @@ export default function DeathCount({ magnitude, setMagnitude, nextStep }) {
                     type="button"
                     onClick={
                         () => {
-                            setMagnitude(magnitude < 5.75 ? magnitude + 0.25 : magnitude);
+                            setMagnitude(magnitude < 8.75 ? magnitude + 0.25 : magnitude);
                         }
                     }
                 >
