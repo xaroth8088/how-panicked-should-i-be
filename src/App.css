@@ -194,8 +194,13 @@ button {
     background-color: lightgrey;
 }
 
+.as-deadly-as > .reaction {
+    margin-top: 1rem;
+    animation-delay: calc(7 * var(--animate-delay));
+}
+
 .as-deadly-as > div:last-child {
-    margin-top: 2rem;
+    margin-top: 1rem;
     animation-delay: calc(8 * var(--animate-delay));
 }
 

@@ -65,6 +65,39 @@ export default function AsDeadlyAs({ magnitude, countries, nextStep, firstStep }
         }
     );
 
+    let reaction;
+    if (risk > 0.1) {
+        reaction = (
+            <>
+                Believe it or not, humanity has survived worse than this.  Stay safe and good luck!
+            </>
+        );
+    } else if (risk > 0.02) {
+        reaction = (
+            <>
+                If accurate, this seems pretty bad.  Take reasonable precautions and <em>don&apos;t panic</em>.
+            </>
+        );
+    } else if (risk > 0.0002) {
+        reaction = (
+            <>
+                While this <em>is</em> pretty bad, it&apos;s not bad enough to warrant panic.
+            </>
+        );
+    } else if (risk > 0.000002) {
+        reaction = (
+            <>
+                It seems that common sense aught to be enough to keep you safe.
+            </>
+        );
+    } else {
+        reaction = (
+            <>
+                Why are you here?  Is this even worth worrying about?
+            </>
+        );
+    }
+
     return (
         <div className="as-deadly-as">
             <h1>How does it compare?</h1>
@@ -83,6 +116,9 @@ export default function AsDeadlyAs({ magnitude, countries, nextStep, firstStep }
                     {stack}
                 </tbody>
             </table>
+            <div className="animated fadeIn reaction">
+                {reaction}
+            </div>
             <div className="animated fadeIn">
                 <button type="button" onClick={nextStep}>How can I protect myself?</button>
             </div>
