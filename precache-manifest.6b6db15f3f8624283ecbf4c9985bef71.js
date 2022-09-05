@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "daa11101c97f0ec7a09ca61eb4d9c4e4",
+    "revision": "ea659fb1171e9272586f4981ac538c86",
     "url": "/how-panicked-should-i-be/index.html"
   },
   {
-    "revision": "55d399697c468b16b44c",
-    "url": "/how-panicked-should-i-be/static/css/2.d2b417cb.chunk.css"
+    "revision": "0afcd0d08177bb51d756",
+    "url": "/how-panicked-should-i-be/static/css/2.593fcca9.chunk.css"
   },
   {
-    "revision": "52f20326c50cb5083565",
-    "url": "/how-panicked-should-i-be/static/css/main.5b8c55b6.chunk.css"
+    "revision": "4235eb74508decc52ff2",
+    "url": "/how-panicked-should-i-be/static/css/main.dd09c0c6.chunk.css"
   },
   {
-    "revision": "55d399697c468b16b44c",
-    "url": "/how-panicked-should-i-be/static/js/2.51cd6292.chunk.js"
+    "revision": "0afcd0d08177bb51d756",
+    "url": "/how-panicked-should-i-be/static/js/2.51baae6e.chunk.js"
   },
   {
-    "revision": "d4dadf8459ca67c66f633793ddbbc50e",
-    "url": "/how-panicked-should-i-be/static/js/2.51cd6292.chunk.js.LICENSE.txt"
+    "revision": "a52def479ca9149193affa26dba33759",
+    "url": "/how-panicked-should-i-be/static/js/2.51baae6e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "52f20326c50cb5083565",
-    "url": "/how-panicked-should-i-be/static/js/main.7f5f29e8.chunk.js"
+    "revision": "4235eb74508decc52ff2",
+    "url": "/how-panicked-should-i-be/static/js/main.9d0e0ee3.chunk.js"
   },
   {
-    "revision": "da260d98f0b8486a9e61",
-    "url": "/how-panicked-should-i-be/static/js/runtime-main.e8e46a91.js"
+    "revision": "e3c5075c469d505519d5",
+    "url": "/how-panicked-should-i-be/static/js/runtime-main.05502d62.js"
   },
   {
     "revision": "d42274826fceb5a1b786df1cfeb5a5ef",
@@ -468,12 +468,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/how-panicked-should-i-be/static/media/cy.d069616c.svg"
   },
   {
-    "revision": "490443104ecbfc24e2580b16a4d811b7",
-    "url": "/how-panicked-should-i-be/static/media/cz.49044310.svg"
+    "revision": "2339f3df385beb6667b8fd621e6a53dd",
+    "url": "/how-panicked-should-i-be/static/media/cz.2339f3df.svg"
   },
   {
-    "revision": "c1ef59925bf16ee880cd366d5ceeeab6",
-    "url": "/how-panicked-should-i-be/static/media/cz.c1ef5992.svg"
+    "revision": "80879b0e86919c6859d875da48efd0e0",
+    "url": "/how-panicked-should-i-be/static/media/cz.80879b0e.svg"
   },
   {
     "revision": "3e726c2b6a59e6e4543c0a1534d93796",
@@ -570,6 +570,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e9062265c973b4ab42aa70eb66ea8957",
     "url": "/how-panicked-should-i-be/static/media/es-ca.e9062265.svg"
+  },
+  {
+    "revision": "151714df0fea994ff25db833a9e9fea1",
+    "url": "/how-panicked-should-i-be/static/media/es-ga.151714df.svg"
+  },
+  {
+    "revision": "2618e21f1cd5dcbd95d7b119f7b4e33a",
+    "url": "/how-panicked-should-i-be/static/media/es-ga.2618e21f.svg"
   },
   {
     "revision": "50623e6a761b392b5381ce35e8a77f99",
@@ -956,12 +964,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/how-panicked-should-i-be/static/media/it.8d15de04.svg"
   },
   {
-    "revision": "62999e4b073e5c686d0bf2e9e60f3206",
-    "url": "/how-panicked-should-i-be/static/media/je.62999e4b.svg"
+    "revision": "ab89781e75ca3440dcb86aa8dbd620f3",
+    "url": "/how-panicked-should-i-be/static/media/je.ab89781e.svg"
   },
   {
-    "revision": "e170f442844c82e4837c021430cc7f68",
-    "url": "/how-panicked-should-i-be/static/media/je.e170f442.svg"
+    "revision": "e0932aed817435f70cf058dd3261ae1c",
+    "url": "/how-panicked-should-i-be/static/media/je.e0932aed.svg"
   },
   {
     "revision": "67f96b2f0df34ce53d7651ade04d1e0b",
@@ -1252,12 +1260,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/how-panicked-should-i-be/static/media/mn.9ebe47eb.svg"
   },
   {
-    "revision": "de26729cbe5d3e54824a22abcfea0e7a",
-    "url": "/how-panicked-should-i-be/static/media/mo.de26729c.svg"
+    "revision": "67acac75dc2e1cb667560972d6996ea6",
+    "url": "/how-panicked-should-i-be/static/media/mo.67acac75.svg"
   },
   {
-    "revision": "e1178856d7fef5a8dcd53af9f9836ab7",
-    "url": "/how-panicked-should-i-be/static/media/mo.e1178856.svg"
+    "revision": "b6d4d1f6c34ca7e148035b1aea886080",
+    "url": "/how-panicked-should-i-be/static/media/mo.b6d4d1f6.svg"
   },
   {
     "revision": "8a731cbc2f690d74704a7da71addcbf3",
@@ -1644,12 +1652,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/how-panicked-should-i-be/static/media/sd.c466d90e.svg"
   },
   {
-    "revision": "b039bdb8e50c968b6c50c8110676061f",
-    "url": "/how-panicked-should-i-be/static/media/se.b039bdb8.svg"
+    "revision": "92c66d8396d5604a9b8fc05153e9163e",
+    "url": "/how-panicked-should-i-be/static/media/se.92c66d83.svg"
   },
   {
-    "revision": "ee9cde492630fda60f7075c5fe8f3ea6",
-    "url": "/how-panicked-should-i-be/static/media/se.ee9cde49.svg"
+    "revision": "fd663a70a1a92a395078c36bc5d122ad",
+    "url": "/how-panicked-should-i-be/static/media/se.fd663a70.svg"
   },
   {
     "revision": "5e6ed3f10d1de224079d77fe6f59ce97",

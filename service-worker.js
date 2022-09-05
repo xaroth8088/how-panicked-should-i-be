@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/how-panicked-should-i-be/precache-manifest.10260556e3f73be6768fd5caaa2182bb.js"
+  "/how-panicked-should-i-be/precache-manifest.6b6db15f3f8624283ecbf4c9985bef71.js"
 );
 
 self.addEventListener('message', (event) => {
